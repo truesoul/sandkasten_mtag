@@ -6,5 +6,6 @@ angular.module('myApp', [
   'myApp.mtController',
   'myApp.mtUppercase',
     'myApp.mtagRegexFilter',
-    'myApp.mtagArrayFilter'
+    'myApp.mtagArrayFilter',
+    'myApp.mtagColorPicker'
 ]);
