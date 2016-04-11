@@ -5,7 +5,11 @@ angular.module('myApp.mtagColorPicker', [])
 function mtagColorPicker() {
     return {
         restrict: 'E',
-
+        scope:{
+            r: '@',
+            g: '@',
+            b: '@'
+        },
         templateUrl: './components/color-picker.html',
         controller: function($scope){
             $scope.r = $scope.r || Math.random()*255;
