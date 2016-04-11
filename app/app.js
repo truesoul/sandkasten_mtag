@@ -7,5 +7,6 @@ angular.module('myApp', [
   'myApp.mtUppercase',
     'myApp.mtagRegexFilter',
     'myApp.mtagArrayFilter',
-    'myApp.mtagColorPicker'
+    'myApp.mtagColorPicker',
+    'myApp.mtagMouseDown'
 ]);
